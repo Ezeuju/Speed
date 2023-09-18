@@ -1,6 +1,7 @@
 import React from 'react'
 import Nav  from "./components/Nav";
-import BrowserRouter from "react-router-dom" 
+import {Routes, Route} from 'react-router-dom'
+// import BrowserRouter from "react-router-dom" 
 
 
 
@@ -8,9 +9,9 @@ import BrowserRouter from "react-router-dom"
 const App = () => {
   return (
     <>
-<BrowserRouter>
-      <Nav />
-      </BrowserRouter>
+<Routes>
+    <Route path='/' element={<Nav/>}/>
+  </Routes>
     </>
   )
 }

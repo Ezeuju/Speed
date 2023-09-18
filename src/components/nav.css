@@ -23,11 +23,20 @@
     font-weight: 500;
 }
 .logo{
-    width: 20%
+    width: 10%;
+    display: flex;
+    align-items: center;
+    /* outline: 2px solid red */
 ;
 }
 .logo img{
-    width: 100%;
+    width: 90%;
+}
+.logo p{
+    font-size: 16px;
+    font-weight: 600;
+    width: 10%;
+    padding-right: 40px;
 }
 .main_header
 {
@@ -74,9 +83,10 @@
 .main_header .container .icon .account .user_icon
 {
     margin-right: 10px;
-    font-size: 22px;
+    font-size: 32px;
     color: #010f1c;
     cursor: pointer;
+    
 }
 .main_header .container .icon .account p
 {
@@ -86,6 +96,8 @@
 .main_header .container .icon .second_icon
 {
     display: flex;
+    /* outline: 2px solid red; */
+    font-size: 32px;
     /* width: 20%; */
     /* justify-content: space-between; */
 } 
